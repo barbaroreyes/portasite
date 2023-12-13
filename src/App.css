@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,300&display=swap');
+
+:root{
+   /*=colors==*/
+  --primaryColor: hsl(271,76%,53%);
+  --titleColor : hsl(0,0%,40%);
+  --textColor : hsl(0,0%,50%);
+  --containerColor : hsl(0,0%,93%);
+  --bodyColor : hsl(0,0%,100%);
+  --borderColor : hsl(0,0%,87%);
+  --text_white : #fff;
+
+
+  /*==Font-and-typo==*/
+
+--bodyfont:'DM Serif Display', serif;
+--bodyfont2:'Noto Serif Display', serif;
+--bigFont-size: 56px;
+--h1-size: 50px;
+--h1-size: 32px;
+--h3-size: 24px;
+--large-font-size: 18px;
+--normal-font-size: 16px;
+--small-font-size: 15px;
+--smaller-font-size: 14px;
+--tiny-font-size: 14px;
+
+ /*==Font-weight==*/
+
+
+ --weight-400:400;
+ --weight-500:500;
+ --weight-600:600;
+ --weight-700:700;
+ --weight-800:800;
+}
+/*==Base==*/
+
+body,
+input,
+textarea{
+  font-family: var(--bodyfont);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
+  background-color:transparent;
+  border: none;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:var(--bodyColor);
+  color:var(--textColor);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4{
+  color:var(--titleColor);
+  font-family: var(--bodyfont2);
+  font-weight: var(--weight-700);
+
+}
+ul{
+list-style: none;
+}
+a{
+  text-decoration: none;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ img{
+  max-width: 100%;
+ }
