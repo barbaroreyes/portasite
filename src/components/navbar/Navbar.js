@@ -5,22 +5,33 @@ import './Navbar.css';
 
 
 const Navbar = () => {
+
 const [showMenu , setShowMenu] = useState(false)
 
   return (
     <nav className="nav">
-    <div className={`${showMenu ?"nav_menu show_menu":"nav_menu"}`}>  
+    <div className={
+      `${showMenu
+       ?"nav_menu show_menu"
+       :"nav_menu"
+      }`
+       }>  
     <ul className="nav_list">
      {links.map(({name ,icon,path},i)=>{
         return(
             <li className="nav__item" key={i}>
                 <NavLink to ={path} 
-                className= {({isActive} )=>isActive 
-                ?"nav__link active-nav":"nav__link"}
-                onClick={()=> setShowMenu(!showMenu)}
+                className= {
+                ({isActive} )=>isActive 
+                ?"nav__link active-nav"
+                :"nav__link"}
+                onClick={()=>
+                setShowMenu(!showMenu)}
                 >
-                    {icon}
-                    <h3 className="nav__name">{name}</h3>
+                {icon}
+                <h3 className="nav__name">
+                  {name}
+                  </h3>
                 </NavLink>
             </li>);
      })}
@@ -28,7 +39,12 @@ const [showMenu , setShowMenu] = useState(false)
     </ul>
 
     </div>
-    <div  className={`${showMenu ?"nav__toggle animate-toggle":"nav__toggle"}`} 
+    <div  
+    className={
+   `${showMenu 
+    ?"nav__toggle animate-toggle"
+    :"nav__toggle"}`
+  } 
     onClick={()=> setShowMenu(!showMenu)}>
      
     <span></span>
