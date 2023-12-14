@@ -11,7 +11,8 @@ const [showMenu , setShowMenu] = useState(false)
   return (
     <nav className="nav">
     <div className={
-      `${showMenu
+      `${
+       showMenu
        ?"nav_menu show_menu"
        :"nav_menu"
       }`
@@ -26,7 +27,8 @@ const [showMenu , setShowMenu] = useState(false)
                 ?"nav__link active-nav"
                 :"nav__link"}
                 onClick={()=>
-                setShowMenu(!showMenu)}
+                setShowMenu(!showMenu)
+              }
                 >
                 {icon}
                 <h3 className="nav__name">
