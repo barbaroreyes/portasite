@@ -87,10 +87,24 @@ a{
   display: inline-block;
   color:var(--titleColor);
   border:1px solid var(--primaryColor);
-  padding: 28px 70px 35px;
+  padding: 28px 70px 5px;
   border-radius: 30px;
   font-family: var(--bodyfont2);
   font-size: var(--small-font-size);
   font-weight: var(--weight-500);
+  position: relative;
+ }
+
+ .button_icon{
+  background-color:var(--primaryColor);
+  position: absolute;
+  inset-block: -2px;
+  right: 0;
+  width: 55px;
+  border-radius:50%;
+  color:var(--text_white);
+  font-size: var(--large-font-size);
+  text-align: center;
+  line-height: 65px;
 
  }
