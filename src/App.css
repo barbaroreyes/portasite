@@ -74,6 +74,12 @@ a{
  }
 
  /*==Reusable css==*/
+.container{
+  
+  max-width: 1000px;
+  margin-inline: auto;
+
+}
 
  .grid{
   display: grid;
@@ -81,6 +87,13 @@ a{
  }
  .section{
   padding-block: 70px;
+ }
+ .section_title{
+  font-size: var(--bigFont-size);
+  font-weight: var(--weight-800);
+  text-align: center;
+  margin-bottom:70px;
+
  }
 
  .button{
