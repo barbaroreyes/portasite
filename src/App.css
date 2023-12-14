@@ -85,6 +85,7 @@ a{
 
  .button{
   display: inline-block;
+  
   color:var(--titleColor);
   border:1px solid var(--primaryColor);
   padding: 28px 70px 5px;
@@ -93,8 +94,25 @@ a{
   font-size: var(--small-font-size);
   font-weight: var(--weight-500);
   position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
  }
+ .button:hover{
+  color: var(--text_white);
 
+ }
+  .button::before{
+    content: " ";
+    position: absolute;
+    inset: 0;
+    background-color:var(--primaryColor);
+    transform: translateX(100%);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover::before{
+    transform: translateX(0);
+  }
  .button_icon{
   background-color:var(--primaryColor);
   position: absolute;

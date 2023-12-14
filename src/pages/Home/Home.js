@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <section className="home section grid">
     <img src="https://avatars.githubusercontent.com/u/48423441?v=4"  className='home_image' alt=''/>
+    <div className="home_content">
     <div className="home_data">
       <h1 className="home_title">
         <span>Barbaro Reyes</span> 
@@ -22,6 +23,10 @@ const Home = () => {
         <Link to='/about' className='button'>
           More About me <span className='button_icon'><FaArrowRight/></span>
         </Link>
+    </div>
+    </div>
+    <div className='color-block'>
+      
     </div>
     </section>
   );
