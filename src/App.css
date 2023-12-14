@@ -82,3 +82,15 @@ a{
  .section{
   padding-block: 70px;
  }
+
+ .button{
+  display: inline-block;
+  color:var(--titleColor);
+  border:1px solid var(--primaryColor);
+  padding: 28px 70px 35px;
+  border-radius: 30px;
+  font-family: var(--bodyfont2);
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-500);
+
+ }

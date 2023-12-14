@@ -25,3 +25,22 @@
 
 
 }
+.home_title span {
+    color: var(--primaryColor)
+}
+
+.home_title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 22%;
+    width: 40px;
+    height: 5px;
+    border-radius:10px;
+    background-color: var(--primaryColor);
+}
+.home_description{
+    line-height:2.125;
+    margin-block: 16px 32px;
+
+}
