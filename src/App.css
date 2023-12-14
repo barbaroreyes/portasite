@@ -17,7 +17,7 @@
 --bodyfont2:'Noto Serif Display', serif;
 --bigFont-size: 56px;
 --h1-size: 50px;
---h1-size: 32px;
+--h2-size: 32px;
 --h3-size: 24px;
 --large-font-size: 18px;
 --normal-font-size: 16px;
@@ -71,4 +71,14 @@ a{
 
  img{
   max-width: 100%;
+ }
+
+ /*==Reusable css==*/
+
+ .grid{
+  display: grid;
+  gap: 30px;
+ }
+ .section{
+  padding-block: 70px;
  }
