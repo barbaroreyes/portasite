@@ -1,5 +1,5 @@
 import React from 'react';
-import Info from '../../components/info'
+import Info from '../../components/info/info'
 import CV from './BarbaroReyesResume.pdf'
 import {FaDownload } from 'react-icons/fa'
 import './About.css';
