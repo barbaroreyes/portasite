@@ -58,21 +58,21 @@ export const personalinfo = [
 export const stats = [
   {
       id: 1,
-      title: 'Software Engineering  :',
+      title: 'Software E  : ',
       description:'  General Assembly ', 
       graduation: " Jun 2021 "
     },
   
     {
       id: 2,
-      title: 'UI/UX Design :',
+      title: 'UI/UX Design : ',
       description:'  WorkForce Institute ', 
       graduation: " Nov 2023 " ,
     
     },
       {
         id:5,
-        title: 'BSCS :',
+        title: ' BSCS : ',
         description:' Colorado Tecnical University ', 
         graduation: " Nov 2024 " ,
         },
