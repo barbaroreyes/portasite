@@ -55,7 +55,7 @@ export const personalinfo = [
       },
       {
         id:5,
-        title: 'Desing Tools  : ',
+        title: 'Design Tools  : ',
         description: ['Figma'," ,"],
         },
   
