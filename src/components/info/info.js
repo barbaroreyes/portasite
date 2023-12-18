@@ -4,7 +4,7 @@ import './info.css'
 
 const info = () => {
   return (
-    <div className=''>
+    <div >
       
      {personalinfo.map((item,i)=>{
       return(<li key={i} className='info__Item'>
