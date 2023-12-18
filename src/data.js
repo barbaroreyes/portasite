@@ -40,9 +40,9 @@ export const personalinfo = [
   {
       id:4,
       title: 'Dev Stack   :',
-      description: [' ReactJs '," ," , "Express","  ,", 
-      'GraphQl'," ,",
-      "MySQL"," ,",
+      description: [' ReactJs '," ," , "Express JS","  ,", 
+      ' GraphQl '," ,",
+      " MySQL "," ,",
       " GitHub",", ",
       "AWS"],
       },
