@@ -10,6 +10,7 @@ const info = () => {
       return(<li key={i} className='info__Item'>
        <span className='info_title'>{item.title}</span> 
         <span className='info_description' >{item.description}</span>
+        <span>{item.graduation}</span>
         </li>)
      })}
     </div>

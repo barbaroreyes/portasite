@@ -1,5 +1,6 @@
 import React from 'react';
-import Info from '../../components/info/info'
+import Info from '../../components/info/info';
+import Stats from '../../components/Stats';
 import CV from './BarbaroReyesResume.pdf'
 import {FaDownload } from 'react-icons/fa'
 import './About.css';
@@ -17,6 +18,7 @@ const About = () => {
         </h3>
         <ul className="info_list grid">
         <Info/>
+        <Stats/>
         </ul>
         <a href={CV} 
         download=''
@@ -28,7 +30,7 @@ const About = () => {
           </a>
       </div>
        <div className="stats grid">
-        
+       
        </div>
      </section>
     </main>

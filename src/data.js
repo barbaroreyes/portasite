@@ -51,7 +51,7 @@ export const personalinfo = [
     },{
       id:4,
       title: 'Dev Stack   :',
-      description: [' ReactJs '," ," , "Express","  ,", 'GraphQl'," ,","MySQL"," ,"," "],
+      description: [' ReactJs '," ," , "Express","  ,", 'GraphQl'," ,","MySQL"," ,"," GitHub",", ","AWS"],
       },
       {
         id:5,
@@ -66,5 +66,30 @@ export const personalinfo = [
     title: ' Email   :',
     description: '  bfreyesgomez@gmail.com ',
     },
+    
+]
+
+export const stats = [
+  {
+      id: 1,
+      title: 'Software Engineering  :',
+      description:'  General Assembly ', 
+      graduation: " Jun 2021 "
+    },
+  
+    {
+      id: 2,
+      title: 'UI/UX Design :',
+      description:'  WorkForce Institute ', 
+      graduation: " Nov 2023 " ,
+    
+    },
+      {
+        id:5,
+        title: 'BSCS :',
+        description:' Colorado Tecnical University ', 
+        graduation: " Nov 2024 " ,
+        },
+  
     
 ]
