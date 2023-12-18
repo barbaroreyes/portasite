@@ -35,37 +35,23 @@ export const personalinfo = [
   {
       id: 1,
       title: 'Name :',
-      description:' Barbaro ',
+      description:' Barbaro Reyes ',
     },
-  
-    {
-      id: 2,
-      title: 'Last:',
-      description: ' Reyes',
-    },
-  
-    {
-      id: 3,
-      title: ' Age :  ',
-      description: ' 45 Years',
-    },{
+  {
       id:4,
       title: 'Dev Stack   :',
-      description: [' ReactJs '," ," , "Express","  ,", 'GraphQl'," ,","MySQL"," ,"," GitHub",", ","AWS"],
+      description: [' ReactJs '," ," , "Express","  ,", 
+      'GraphQl'," ,",
+      "MySQL"," ,",
+      " GitHub",", ",
+      "AWS"],
       },
       {
         id:5,
         title: 'Design Tools  : ',
-        description: ['Figma'," ,"],
+        description: ['Figma'," ,"," Canva ",","," Sktech "],
         },
-  
 
-  
-    {
-    id:6,
-    title: ' Email   :',
-    description: '  bfreyesgomez@gmail.com ',
-    },
     
 ]
 

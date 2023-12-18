@@ -6,4 +6,18 @@
 .info_list{
    
     margin-bottom: 1px;
+};
+.section_subtitle{
+font-size:var(--h3-size) ;
+font-weight: var(--weight-600);
+margin-bottom: 20px;
+}
+
+.info_list .info_title .info_list .info_description{
+    font-size: var(--small-size);
+}
+
+.info_list .info_description{
+color: var(--titleColor);
+font-weight: var(--weight-600);
 }
